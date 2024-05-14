@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Ding
+    given-names: Shuxiao
+    orcid: https://orcid.org/0000-0002-4040-5585
+title: "ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association"
+date-released: 2024-05-14
+url: "https://github.com/dsx0511/ADA-Track"
