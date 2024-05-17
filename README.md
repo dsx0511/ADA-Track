@@ -4,7 +4,7 @@ This is the official implementation of the CVPR'24 paper
 > **ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association**  
 > Shuxiao Ding, Lukas Schneider, Marius Cordts, Juergen Gall
 
-[Arxiv]([https://arxiv.org/abs/2308.06635](https://arxiv.org/abs/2405.08909)) | CVF Open Access 
+[Arxiv](https://arxiv.org/abs/2405.08909) | CVF Open Access 
 
 https://github.com/dsx0511/ADA-Track/assets/33251274/35a46ef9-a2c9-4c26-beb8-3246438004a0
 
