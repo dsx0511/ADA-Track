@@ -4,6 +4,10 @@ This is the official implementation of the CVPR'24 paper
 > **ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association**  
 > Shuxiao Ding, Lukas Schneider, Marius Cordts, Juergen Gall
 
+[Arxiv]([https://arxiv.org/abs/2308.06635](https://arxiv.org/abs/2405.08909)) | CVF Open Access 
+
+https://github.com/dsx0511/ADA-Track/assets/33251274/35a46ef9-a2c9-4c26-beb8-3246438004a0
+
 ## Abstract
 Query-based 3D Multi-Object Tracking (MOT) facilitates seamless integration into end-to-end frameworks. Many existing methods adopt the tracking-by-attention paradigm, utilizing track queries for identity-consistent detection and object queries for identity-agnostic track spawning. Tracking-by-attention, however, entangles detection and tracking queries in one embedding for both the detection and tracking task, which is sub-optimal. Other approaches resemble the tracking-by-detection paradigm, detecting objects using decoupled track and detection queries followed by a subsequent association. These methods, however, do not leverage synergies between the detection and association task. Combining the strengths of both paradigms, we introduce ADA-Track, a novel end-to-end framework for 3D MOT from multi-view cameras. We introduce a learnable data association module based on edge-augmented cross-attention, leveraging appearance and geometric features. Furthermore, we integrate this association module into the decoder layer of a DETR-based 3D detector, enabling simultaneous DETR-like query-to-image cross-attention for detection and query-to-query cross-attention for data association. By stacking these decoder layers, queries are refined for the detection and association task alternately, effectively harnessing the task dependencies. We evaluate our method on the nuScenes dataset and demonstrate the advantage of our approach compared to the two previous paradigms.
 
@@ -30,8 +34,19 @@ NOTE: After fixing a small issue in the code, we achieved slightly better perfor
 ## License
 See [LICENSE](./LICENSE) for more details.
 
+## Citation
+If you find ADA-Track is helpful for your research, please give us a star and cite it by:
+```
+@inproceedings{ding2024adatrack,
+  title={ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association},
+  author={Ding, Shuxiao and Schneider, Lukas and Cordts, Marius and Gall, Juergen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
+```
+
 ## Acknowledgement
 Our implementation is a plugin to [mmdetection3d](https://github.com/open-mmlab/mmdetection3d), and it is highly dependent on [MUTR3D](https://github.com/a1600012888/MUTR3D). 
 We build our tracker based on the implementation of the detectors [DETR3D](https://github.com/WangYueFt/detr3d) and [PETR](https://github.com/megvii-research/PETR).
-The success of this work is impossible without these aforementionend projects as well as many other high-quality open-source projects.
+The success of this work is impossible without these aforementioned projects as well as many other high-quality open-source projects.
 Many thanks to them for enabling our research!
