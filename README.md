@@ -4,7 +4,7 @@ This is the official implementation of the CVPR'24 paper
 > **ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association**  
 > Shuxiao Ding, Lukas Schneider, Marius Cordts, Juergen Gall
 
-[Arxiv](https://arxiv.org/abs/2405.08909) | CVF Open Access 
+[Arxiv (CVPR version)](https://arxiv.org/abs/2405.08909v1) | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2024/html/Ding_ADA-Track_End-to-End_Multi-Camera_3D_Multi-Object_Tracking_with_Alternating_Detection_and_CVPR_2024_paper.html) | [Arxiv (Extended version)](https://arxiv.org/abs/2405.08909v2) 
 
 https://github.com/dsx0511/ADA-Track/assets/33251274/35a46ef9-a2c9-4c26-beb8-3246438004a0
 
@@ -14,6 +14,7 @@ Query-based 3D Multi-Object Tracking (MOT) facilitates seamless integration into
 ![](img/system_overview.png "System overview") 
 
 ## News
+- [2024/12/13] We release an extended version, ADA-Track++. The arxiv paper can be accessed [here](https://arxiv.org/abs/2405.08909v2).
 - [2024/02/26] Our paper is accepted by CVPR 2024! 🎉🎉
 - [2024/05/14] We release our source code.
 
